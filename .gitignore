@@ -1,0 +1,19 @@
+# --- 密钥 / 凭证：绝不入库 ---
+*.key
+*.pem
+.env
+.env.*
+**/secrets/**
+oai_key*
+.oai_key*
+openai*.key
+
+# --- 系统 / 缓存 ---
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+
+# 本仓库为纯文字内核开源版：不依赖任何 API key。
+# 若你在本地试生图，把临时密钥放在仓库外，勿写进这里任何文件。
