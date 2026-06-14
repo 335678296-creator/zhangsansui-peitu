@@ -17,3 +17,8 @@ node_modules/
 
 # 本仓库为纯文字内核开源版：不依赖任何 API key。
 # 若你在本地试生图，把临时密钥放在仓库外，勿写进这里任何文件。
+
+# 交接 / 预览，不发布
+_handoff/
+HANDOFF.md
+_preview.html
